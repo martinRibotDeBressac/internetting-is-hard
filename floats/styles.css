@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #EAEDF0;
+}
+
+.container {
+  overflow: hidden;
+  background-color: #EAEDF0;
+}
+
+.menu {
+  height: 100px;
+  background-color: #B2D6FF;    /* Medium blue */
+}
+
+.sidebar {
+  float: left;
+  width: 200px;
+  height: 300px;
+  background-color: #F09A9D;    /* Red */
+}
+
+.content {
+  float: left;
+  width: 650px;
+  height: 500px;
+  background-color: #F5CF8E;    /* Yellow */
+  padding: 20px;
+}
+
+.footer {
+  overflow: hidden;
+  background-color: #D6E9FE;    /* Light blue */
+}
+
+.footer-item {
+  float: left;
+  width: 31%;
+  margin: 20px 1.15%;
+  height: 160px;
+  background-color: #B2D6FF;    /* Medium blue */
+}
+
+.article-image {
+  float: left;
+  width: 300px;
+  height: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.avatar {
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin: 25px;
+  border-radius: 40px;
+  background-color: #D6E9FE;
+}
+
+.username {
+  margin-top: 30px;
+}
+
+.comment {
+  margin: 10px;
+  overflow: hidden;  /* This is important */
+}
